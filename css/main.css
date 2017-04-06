@@ -1,28 +1,50 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+
 }
+
+.resizeall {
+    height: 100vh;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-size: 20px;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: #d5d5d5;
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 a {
     text-decoration: none;
-    color: #999;  
+    color: #333;  
  }
  a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+ a:link {
+    color: #333;
+     }
+     
+     a:visited {
+         color:gray;
+     }
+     
 }
+h1 {
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #333;
+}
+
+.colorgrey {
+    color: #666;
+        
+}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
