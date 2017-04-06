@@ -5,6 +5,7 @@ body {
 .resizeall {
     height: 100vh;
     width: 100vH;
+    margin-left: 20px;
 }
 
 nav ul, footer ul {
