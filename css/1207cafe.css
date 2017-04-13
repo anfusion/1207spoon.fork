@@ -132,7 +132,7 @@ position_cup {
         left:50%;
 }
     
-.imagecup3 {
+.image_cup3 {
         position: absolute
         top:50%;
         left:50%;
@@ -149,12 +149,6 @@ position_cup {
         top:50%;
         left:50%;
     }
-    
-.image_yuukari {
-        position: absolute
-        top:50%;
-        left:50%;
-    } 
     
 .image_1207logobig {
         position: absolute
