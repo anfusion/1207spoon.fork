@@ -1,0 +1,205 @@
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+ol,
+li,
+small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}*/
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  width: 25%;
+  float: left;
+  background: -moz-linear-gradient(top, #smokewhite 0%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #smokewhite), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #smokewhite 0%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #smokewhite 0%, white 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #smokewhite 0%, white 100%);
+  /* W3C standard, IE10+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#smokewhite', endColorstr=white, GradientType=0);
+  /* IE6-9 */
+}
+
+.homelogo {
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+}
+
+nav ul li a {
+  color: #A9A9A9;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:link {
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: #A9A9A9;
+}
+nav ul li a:hover {
+  background-color: #585858;
+  color: #DDD;
+  box-shadow: 0 0 1px #000;
+  /* x offset, y offset, size, color */
+  transition: all 0.5s ease;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+
+.getquotebtn {
+  position: absolute;
+  /**top: 338px;
+  left: 334px;*/
+  top: 43%;
+  left: 42%;
+  height: 10%;
+  width: 19%;
+  font-size: 14px;
+  background-color: transparent;
+  border-style: none;
+  font-family: Lucida Console;
+}
+
+
+.position {
+  position: absolute;
+  top: 52%;/* Percentages makes ur website responsive*/
+  left: 50%;
+  width:
+  height:
+}
+
+position_cup {
+    
+}
+
+.topleftlogobotimageli {
+    padding:0;
+}
+
+.topleftlogobotimage {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+.image_light {
+        position: absolute
+        top:50%;
+        left:50%;
+}
+    
+.imagecup3 {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_yakan {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_yuukari {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_yuukari {
+        position: absolute
+        top:50%;
+        left:50%;
+    } 
+    
+.image_1207logobig {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_tile {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_totte {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_tsukue {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_isu {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_cup1 {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
+    
+.image_cup2{
+        position: absolute
+        top:50%;
+        left:50%;     
+    }
+    
+.image_door {
+        position: absolute
+        top:50%;
+        left:50%;
+    }
