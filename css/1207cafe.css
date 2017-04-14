@@ -126,6 +126,7 @@ position_cup {
 }
 
 /*
+
 .image_light {
         position: absolute;
         top:50%;
@@ -189,12 +190,23 @@ position_cup {
 .image_cup2{
         position: absolute;
         top:50%;
-        left:50%;     
+        left:190%;     
     }
     
 .image_dr {
-        position: absolute;
-        top:50%;
-        left:50%;
+    position: absolute;
+    top: 78%;
+    left: 218%;
+}
+.image_sara {
+    position: absolute;
+    top: 216%;
+    left: 285%;
+}
+    
+.image_hasu {
+    position: absolute;
+    top: 420%;
+    left: 316%;
     }
 */
