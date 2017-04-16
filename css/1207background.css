@@ -2,7 +2,7 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: grey;
-  background-image: url(anfusion.github.io/images/backgroundsmall.jpg);
+  background-image: url("anfusion.github.io/images/backgroundsmall.jpg");
 }
 
 
