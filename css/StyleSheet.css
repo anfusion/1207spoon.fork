@@ -1,0 +1,212 @@
+﻿body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: gray;
+    background-image: url('https://github.com/anfusion/anfusion.github.io/blob/master/images/backgroundsmall.jpg?raw=true');
+}
+
+
+nav {
+    width: 100%;
+}
+
+    nav ul {
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        nav ul li {
+            width: 25%;
+            float: left;
+            background: -moz-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+            /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #fff));
+            /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+            /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+            /* Opera 11.10+ */
+            background: linear-gradient(to bottom, #f5f5f5 0%, #fff 100%);
+            /* W3C standard, IE10+ */
+            filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fff', GradientType=0);
+            /* IE6-9 */
+        }
+
+            nav ul li a {
+                display: block;
+                width: 100%;
+            }
+
+            nav ul li a {
+                color: #A9A9A9;
+                text-align: center;
+                padding: 10px 0;
+                display: block;
+                width: 100%;
+            }
+
+                nav ul li a:link {
+                    text-decoration: none;
+                }
+
+                nav ul li a:visited {
+                    color: #A9A9A9;
+                }
+
+                nav ul li a:hover {
+                    background-color: #F5F5F5;
+                    color: #111;
+                    /* x offset, y offset, size, color */
+                    transition: all 0.5s ease;
+                }
+
+.topleftlogobotimageli {
+    padding: 0;
+}
+
+.topleftlogobotimage {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: auto;
+}
+
+.image_light_button {
+    width: 100%;
+    top: 13%;
+    left: 5%;
+    z-index: 1;
+}
+
+.image_light {
+    width: 100%;
+    top: 15%;
+    left: 5%;
+}
+
+.image_cuppest_button {
+    top: 8%;
+    left: 25%;
+    z-index: 1;
+}
+
+.image_cuppest {
+    width: 100%;
+    top: 8%;
+    left: 25%;
+}
+
+.image_cup {
+    width: 100%;
+    top: 6%;
+    left: 15%;
+}
+
+.image_yakan_button {
+    width: 100%;
+    top: 13%;
+    left: 55%;
+    z-index: 1;
+}
+
+.image_yakan {
+    width: 100%;
+    top: 14%;
+    left: 56%;
+}
+
+.image_yuukari_button {
+    width: 100%;
+    top: 8%;
+    left: 77%;
+    z-index: 1;
+}
+
+.image_yuukari {
+    width: 100%;
+    top: 8%;
+    left: 77%;
+}
+
+.image_tobira {
+    width: 100%;
+    top: 35%;
+    left: 20%;
+}
+
+.image_1207logobig_button {
+    width: 100%;
+    top: 35%;
+    left: 45%;
+    z-index: 1;
+}
+
+.image_1207logobig {
+    width: 100%;
+    top: 37%;
+    left: 43%;
+}
+
+.image_tile {
+    width: 100%;
+    top: 41%;
+    left: 68%;
+}
+
+.image_totte {
+    width: 100%;
+    top: 30%;
+    left: 85%;
+}
+
+.image_tsukue {
+    width: 100%;
+    top: 63%;
+    left: 1%;
+}
+
+.image_isu_button {
+    width: 100%;
+    top: 65%;
+    left: 20%;
+    z-index: 1;
+}
+
+.image_isu {
+    width: 100%;
+    top: 65%;
+    left: 20%;
+}
+
+.image_dr {
+    top: 62%;
+    left: 47%;
+    width: 100%;
+}
+
+.image_cupnoback {
+    top: 43%;
+    width: 100%;
+    left: 28%;
+    z-index: 1;
+}
+
+.image_cuplegsconnected {
+    top: 66%;
+    width: 100%;
+    left: 61%;
+}
+
+.image_sara {
+    width: 100%;
+    top: 54%;
+    left: 85%;
+}
+
+.image_hasu {
+    width: 100%;
+    top: 64%;
+    left: 73%;
+}
