@@ -1,0 +1,230 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #yellow;
+  background-image: url(images/backgroundsmall.jpg);
+}
+
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  width: 25%;
+  float: left;
+  background: -moz-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #fff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #f5f5f5 0%, #fff 100%);
+  /* W3C standard, IE10+ */
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fff', GradientType=0);
+  /* IE6-9 */
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+}
+
+nav ul li a {
+  color: #A9A9A9;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:link {
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: #A9A9A9;
+}
+nav ul li a:hover {
+  background-color: #585858;
+  color: #DDD;
+  box-shadow: 0 0 1px #000;
+  /* x offset, y offset, size, color */
+  transition: all 0.5s ease;
+}
+
+.topleftlogobotimageli {
+    padding:0;
+}
+
+.topleftlogobotimage {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: auto;
+}
+
+.image_backgroundpositioning {
+    position:relative;
+    max-width: 100%;
+}
+
+.image_light_button {
+        position: absolute;
+        top:13%;
+        left:5%;
+        z-index: 1;
+}
+
+.image_light {
+        position: absolute;
+        top:15%;
+        left:5%;
+        width: 19%;
+}
+
+.image_cuppest_button {
+        position: absolute;
+        top:8%;
+        left:25%;
+        z-index: 1;
+}
+
+.image_cuppest {
+        position: absolute;
+        top:8%;
+        left:25%; 
+        width: 19%;
+}
+    
+.image_cup3 {
+        position: absolute;
+        top:6%;
+        left:15%;
+        width: 19%;
+}
+    
+.image_yakan_button {
+        position: absolute;
+        top:13%;
+        left:55%;
+        z-index: 1;
+    }
+
+.image_yakan {
+        position: absolute;
+        top:14%;
+        left:56%;
+        width: 19%;
+    }
+
+.image_yuukari_button {
+        position: absolute;
+        top:8%;
+        left:77%;
+        z-index: 1;
+    }
+.image_yuukari {
+        position: absolute;
+        top:9%;
+        left:76%;
+        width: 19%;
+    }
+
+.image_tobira {
+        position: absolute;
+        top:35%;
+        left:20%;
+        width: 19%;
+    }
+    
+.image_1207logobig_button {
+        position: absolute;
+        top:35%;
+        left:45%;
+        z-index: 1;
+    }
+
+.image_1207logobig {
+        position: absolute;
+        top:37%;
+        left:43%;
+        width: 19%;
+    }
+    
+.image_tile {
+        position: absolute;
+        top:41%;
+        left:68%;   
+        width: 19%;
+    }
+    
+.image_totte {
+        position: absolute;
+        top:30%;
+        left:85%;
+        width: 19%;
+}
+    
+.image_tsukue {
+        position: absolute;
+        top:63%;
+        left:1%;
+        width: 19%;
+}
+
+.image_isu_button {
+        position: absolute;
+        top:65%;
+        left:20%;
+        z-index: 1;
+    }
+.image_isu {
+        position: absolute;
+        top:65%;
+        left:20%;
+        width: 19%;
+}
+.image_dr {
+        position: absolute;
+        top: 62%;
+        left: 47%;
+        width: 19%;
+}
+
+.image_cupnoback {
+        position: absolute;
+        top:43%;
+        left:28%;
+        width: 19%;
+        z-index: 1;
+}
+    
+.image_cuplegsconnected{
+        position: absolute;
+        top: 66%;
+        left: 61%;
+        width: 19%;
+}
+    
+.image_sara {
+        position: absolute;
+        top: 54%;
+        left: 85%;
+        width: 19%;
+}
+    
+.image_hasu {
+        position: absolute;
+        top: 64%;
+        left: 73%;
+        width: 19%;
+}
