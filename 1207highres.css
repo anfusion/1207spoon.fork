@@ -1,8 +1,11 @@
 body {
     margin: 0 auto;
     background-color: gray;
+
+    background-image: url("anfusion.github.io/images/backgroundscreenshotimage.png");
+    background-image: url('anfusion.github.io/images/backgroundscreenshotimage.png');
+    background-image: url('images/backgroundscreenshotimage.png');
     background-image: url("images/backgroundscreenshotimage.png");
-    background-image: url(anfusion.github.io/images/backgroundscreenshotimage.png);
 }
 
 
