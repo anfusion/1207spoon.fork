@@ -82,7 +82,7 @@ nav {
 }
 
 .image_light_button {
-    width: 100%;
+    width: auto;
     margin:auto;
     z-index: 1;
     font-family: "Meiryo";
