@@ -1,11 +1,10 @@
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
 body {
     margin: 0 auto;
     background-color: gray;
-
-    background-image: url("anfusion.github.io/images/backgroundscreenshotimage.png");
-    background-image: url('anfusion.github.io/images/backgroundscreenshotimage.png');
     background-image: url('images/backgroundscreenshotimage.png');
-    background-image: url("images/backgroundscreenshotimage.png");
 }
 
 
@@ -77,158 +76,128 @@ nav {
     width: 120px;
 }
 
+.allicons {
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+
 .image_light_button {
     width: 100%;
-    top: 13%;
-    left: 5%;
+    margin:auto;
     z-index: 1;
+    font-family: "Meiryo";
 }
 
 .image_light {
-    width: auto;    
-    max-height: 30vh;
-    top: 15%;
-    left: 5%;
-
+    width: 70%;
+    margin: auto;
 }
 
 .image_cuppest_button {
+    margin:auto;
     width: auto;    
-    max-height: 30vh;    
-    top: 8%;
-    left: 25%;
     z-index: 1;
+    font-family: "Noto Sans Japanese";
 }
 
 .image_cuppest {
+    margin: auto;
+    vertical-align: middle;
     width: auto;    
-    max-height: 30vh;
-    top: 8%;
-    left: 25%;
 }
 
 .image_yakan_button {
+    margin: auto;
     width: auto;    
-    max-height: 30vh;
-    top: 13%;
-    left: 55%;
     z-index: 1;
+    font-family: "Noto Sans Japanese";
 }
 
 .image_yakan {
+    margin: auto;
     width: auto;    
-    max-height: 30vh;
-    top: 14%;
-    left: 56%;
 }
 
 .image_map_button {
+    margin: auto;
     width: auto;    
-    max-height: 30vh;
-    top: 8%;
-    left: 77%;
     z-index: 1;
+    font-family: "Noto Sans Japanese";
 }
 
 .image_yuukari {
-    width: auto;    
-    max-height: 30vh;    
-    top: 8%;
-    left: 77%;
+    margin: auto;
+    width: 25%;    
 }
 
 .image_hikidashi {
-    width: auto;    
-    max-height: 20vh;    
-    top: 35%;
-    left: 20%;
+    margin: auto;
+    width: 65%;    
 }
 
 .image_1207logobig_button {
-    top: 35%;
-    left: 45%;
+    margin:auto;
     z-index: 1;
+    font-family: "Noto Sans Japanese";
 }
 
 .image_1207logobig {
+    margin: auto;
     width: auto;    
-    max-height: 30vh;    
-    top: 37%;
-    left: 43%;
 }
 
 .image_tile {
-    width: auto;    
-    max-height: 20vh;    
-    top: 41%;
-    left: 68%;
+    margin: auto;
+    width: 75%;    
 }
 
 .image_totte {
-    width: auto;    
-    max-height: 15vh;    
-    top: 30%;
-    left: 85%;
+    margin: auto;
+    width: 80%;    
 }
 
 .image_tsukue {
-    width: auto;    
-    max-height: 35vh;    
-    top: 63%;
-    left: 1%;
+    margin: auto;
+    width: 70%;    
 }
 
 .image_isu_button {
-    top: 65%;
-    left: 20%;
+    margin: auto;
     z-index: 1;
+    font-family: "Noto Sans Japanese";
 }
 
 .image_isu {
-    width: auto;    
-    max-height: 35vh;    
-    top: 65%;
-    left: 20%;
+    margin: auto;
+    width: 85%;   
 }
 
 .image_owan {
-    width: auto;    
-    max-height: 15vh;
-    left: 28%;
-    z-index: 1;
+    margin: auto;
+    width: 55%;    
 }
 
 .image_cuplegsconnected {
-    width: auto;    
-    max-height: 15vh;
-    top: 66%;
-    left: 61%;
+    margin: auto;
+    width: 50%;    
 }
 
 .image_sara {
-    width: auto;    
-    max-height: 20vh;
-    top: 54%;
-    left: 85%;
+    margin: auto;
+    width: 75%;    
 }
 
 .image_cupnoback {
-    width: auto;    
-    max-height: 15vh;
-    top: 6%;
-    left: 15%;
+    margin: auto;
+    width: 50%;    
 }
 
 .image_glass {
-    width: auto;    
-    max-height: 20vh;
-    top: 62%;
-    left: 47%;
+    margin: auto;
+    width: 70%;    
 }
 
 .image_hasu {
-    width: auto;    
-    max-height: 30vh;
-    top: 64%;
-    left: 73%;
+    margin: auto;
+    width: 90%;    
 }
