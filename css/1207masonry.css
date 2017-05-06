@@ -43,9 +43,10 @@ nav ul li a {
 nav ul li a {
   color: #A9A9A9;
   text-align: center;
-  padding: 10px 0;
+  padding: 25px 0;
   display: block;
   width: 100%;
+    font-size: 2em;
 }
 
 nav ul li a:link {
@@ -68,10 +69,10 @@ nav ul li a:hover {
 }
 
 .topleftlogobotimage {
-  padding-top: 14px;
-  padding-bottom: 5px;
-  padding-left: 4px;
-  width: 75px;
+    padding-top: 31px;
+    padding-bottom: 21px;
+    padding-left: 4px;
+    width: 199px;
 }
 
 .masonry {
@@ -112,12 +113,12 @@ hr {
   max-height: 20vh;
   display: block;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 6vh;
 }
 
 .imgsmall {
   max-width: 100%;
-  max-height: 9vh;
+  max-height: 8.5vh;
   display: block;
   margin: auto;
   padding: 3px !important;
@@ -146,13 +147,23 @@ hr {
   height: 33vh;
   padding-top: 3%;
   position: relative;
-  top: 10%;
+  top: 11vh;
+  left: 1vh;
+}
+
+.image_tile {
+    position: relative;
+    bottom: 5%;
+    right: 5%;
+    height: 6vh;
+    margin: 8vh auto;
 }
 
 .image_tsukue {
   height: 33vh;
   margin-left: 0;
   margin-top: 2%;
+  break-after: column;
 }
 
 .nopad {
@@ -161,37 +172,37 @@ hr {
   height: 8vh;
 }
 
-.image_cupnoback {
-  margin: 1px;
-  position: relative;
-  bottom: 0vh;
-  left: 17vw;
-}
-
-.image_cuplegsconnected {
-  position: relative;
-  bottom: 1vh;
-  right: 7vw;
-}
-
-.image_1207 {
-  max-width: 100%;
-  max-height: 10vh;
-  display: block;
-  margin: auto;
-  padding-top: 35px;
-  padding-bottom: 20px;
-}
-
 .image_owan {
   max-width: 100%;
-  max-height: 9vh;
+  max-height: 8vh;
   display: block;
   margin: auto;
   padding-top: 15px;
   position: relative;
-  right: 1vh;
-  top: 1vh;
+  right: 0vh;
+  top: 3vh;
+}
+
+.image_cupnoback {
+  margin: 1px;
+  position: relative;
+  bottom: -4vh;
+  left: 20vw;
+}
+
+.image_cuplegsconnected {
+  position: relative;
+  bottom: -4vh;
+  right: 4vw;
+}
+
+.image_1207 {
+    max-width: 100%;
+    max-height: 10vh;
+    display: block;
+    margin: auto;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
 }
 
 .image_hikidashi {
@@ -209,27 +220,19 @@ hr {
   position: relative;
   top: ;
   left: 2vw;
-  padding-bottom: 8%;
+  padding-bottom: 1vh;
 }
 
 .image_yuukari {
   position: relative;
   left: 2vw;
   height: 26vh;
-  padding-top: 3vh;
-}
-
-.image_tile {
-    position: relative;
-    bottom: 5%;
-    right: 5%;
-    height: 5vh;
-    margin: 3vh auto;
+  padding-top: 5vh;
 }
 
 .image_totte {
     height: 4vh;
-    margin-top: 7%;
+    margin-top: 4vh;
     position: relative;
     right: 2vh;
 }
