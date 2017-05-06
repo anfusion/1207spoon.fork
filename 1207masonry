@@ -1,0 +1,102 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css/1207masonry.css">
+
+</head>
+
+<body>
+  <nav>
+  <ul>
+    <li>
+      <a class="topleftlogobotimageli" href="https://en.wikipedia.org/wiki/Past" target="_blank">
+        <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/image_1207logobig_button.png?raw=true" border="0" alt="navlogo" class="topleftlogobotimage">
+      </a>
+    </li>
+    <li><a href="https://en.wikipedia.org/wiki/Present" target="_blank">Email</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Future" target="_blank">Facebook</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Unknown_Pleasures" target="_blank">Instagram</a></li>
+  </ul>
+</nav>
+
+<div class="masonry">
+
+  <div class="item image_light">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/light.png?raw=true" class="image_light imglarge">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/tile.png?raw=true" 　alt="地図" class="image_tile imgsmall">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/tsukue.png?raw=true" 　alt="地図" class="image_tsukue imglarge">
+  </div>
+
+  <hr class="desktop">
+  <hr class="mobile">
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/image_1207logobig_button.png?raw=true" class="image_1207logobig_button image_1207">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/owan.png?raw=true" alt="メニュー" class="image_owan">
+  </div>
+  
+    <div class="item nopad">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/cupnoback.png?raw=true" 　alt="地図" class="image_cupnoback imgsmall">
+  </div>
+
+  <div class="item nopad">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/cuplegsconnected.png?raw=true" 　alt="地図" class="image_cuplegsconnected imgsmall">
+  </div>
+
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/isu.png?raw=true" alt="メニュー" class="image_isu imglarge">
+  </div>
+
+  <hr class="desktop">
+  <hr class="mobile">
+
+
+
+  <hr class="">
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/yuukari.png?raw=true" alt="メニュー" class="image_yuukari imgmedlrg">
+  </div>
+
+    <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/yakan.png?raw=true" 　alt="地図" class="image_yakan imgmed">
+  </div>
+  
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/totte.png?raw=true" 　alt="地図" class="image_totte imgsmall">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/hasu.png?raw=true" 　alt="地図" class="image_hasu imgmed">
+  </div>
+
+  <!--
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/glass.png?raw=true" border="0" alt="メニュー" class="image_glass imgmed">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/totte.png?raw=true" 　alt="地図" class="image_totte imgsmall">
+  </div>
+
+  <div class="item">
+    <img src="https://github.com/anfusion/anfusion.github.io/blob/master/images/sara.png?raw=true" 　alt="地図" class="image_sara imgmed">
+  </div>-->
+
+</div>
+
+<script src="js/1207masonry.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
+
+</body>
+</html>
