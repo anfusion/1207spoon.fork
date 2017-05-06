@@ -149,6 +149,7 @@ hr {
   position: relative;
   top: 11vh;
   left: 1vh;
+  break-after: column;
 }
 
 .image_tile {
