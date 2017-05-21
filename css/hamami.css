@@ -1,0 +1,173 @@
+body {
+  font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic Pro", Sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FCFBE3;
+}
+
+.sidecontainer {
+    padding: 10px;
+    clear: both
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+    
+.header_flexwrap {
+    display: flex;
+    width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.flex_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainklogo {
+    flex-basis: 30%;
+    margin: 4%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.maintitle {
+  flex-basis: 60%;
+    margin: 4%;
+    margin-left: 0;
+}
+
+.maintitle_style {
+    font-size: 23px;
+    font-family:  "Noto Sans Japanese", "Sawarabi Mincho", "Hiragino Kaku Gothic Pro";
+    font-weight: 200
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+    width: 25%;
+    float: left;
+    background-color: #ebba72;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+nav ul li a {
+  display: block;
+  width: 100%;
+}
+
+nav ul li a {
+  color: #313131;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:link {
+  text-decoration: none;
+}
+nav ul li a:visited {
+  color: #A9A9A9;
+}
+nav ul li a:hover {
+  background-color: #DCF7F3;
+  color: #111;
+  /* x offset, y offset, size, color */
+  transition: all 0.5s ease;
+}
+
+.image_backneedles {
+    margin: 0 auto -2px auto;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+section {
+    margin-top: 5px;
+}
+
+.flexifysection {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+
+.sectionbanner {
+    color: #313131;
+    padding: 10px 12px;
+    margin-top: 10px;
+    display: block;  
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+
+}
+
+.sectionbannercurledleft {
+    border-top-right-radius: 53px;
+    border-bottom-right-radius: 53px;
+    /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+
+.senseileft {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sectionbannercurledright {
+    border-top-left-radius: 53px;
+    border-bottom-left-radius: 53px;
+    /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 50%;
+}
+
+.senseiright {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sensei1para {
+    padding: 2%;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    flex-basis: 50%;
+}
