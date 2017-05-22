@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #FCFBE3;
+  margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .sidecontainer {
@@ -110,6 +112,8 @@ nav ul li a:hover {
 
 section {
     margin-top: 5px;
+    margin-bottom: 5px;
+    
 }
 
 .flexifysection {
@@ -132,15 +136,18 @@ section {
     flex-basis: 70% !important;
 }
 
+.fullwidthbanner {
+    margin: 10px 0 10px 0;
+}
+
 .sectionbanner {
     color: #313131;
     padding: 10px 12px;
-    margin-top: 10px;
-    display: block;  
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: #ebba72;
     font-size: 12px;
     font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
-
 }
 
 .sectionbannercurledleft {
@@ -185,4 +192,8 @@ section {
     height: 100%;
     margin: 0 auto;
     flex-basis: 50%;
+}
+
+.footer {
+    margin-bottom: 0px;
 }
