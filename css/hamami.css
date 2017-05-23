@@ -77,6 +77,10 @@ nav ul li {
     font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
 }
 
+.firstnav {
+    background-color: #DCF7F3;
+}
+
 nav ul li a {
   display: block;
   width: 100%;
@@ -93,9 +97,9 @@ nav ul li a {
 nav ul li a:link {
   text-decoration: none;
 }
-nav ul li a:visited {
+/*nav ul li a:visited {
   color: #A9A9A9;
-}
+}*/
 nav ul li a:hover {
   background-color: #DCF7F3;
   color: #111;
@@ -192,6 +196,36 @@ section {
     height: 100%;
     margin: 0 auto;
     flex-basis: 50%;
+}
+
+.centering {
+    margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+  }
+
+table {
+    background-color: #f6debd;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+
+td, th {
+  border: 1px solid #999;
+  padding: 5px;
+  text-align: left;
+  font-weight: 400;
+}
+
+th {
+    background-color: #f2daa9;
+}
+
+#map {
+    width: 90%;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 10px;
 }
 
 .footer {
