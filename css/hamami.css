@@ -54,6 +54,7 @@ display: flex;
 
 img {
     max-width: 100%;
+    width: 100%;
 }
 
 .maintitle {
@@ -148,7 +149,7 @@ section {
 
 .nopicflexbasis1 {
     padding: 2%;
-    text-align: center;
+    text-align: justify;
     height: 100%;
     margin: 0 auto;
     flex-basis: 70% !important;
@@ -160,48 +161,44 @@ section {
 
 .sectionbanner {
     color: #313131;
-    padding: 10px 12px;
-    margin-top: auto;
-    margin-bottom: auto;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
     background-color: #ebba72;
     font-size: 12px;
     font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
 }
 
-.sectionbannercurledleft {
-    border-top-right-radius: 53px;
-    border-bottom-right-radius: 53px;
-    /* float: right; */
+.sectionbannercurled {
+        /* float: right; */
     text-align: center;
     /* width: 50%; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-basis: 50%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sectionbannercurled.left {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 5px;
 }
 
-.senseileft {
+.curlpara {
+    width: 45%;
+}
+
+.sensei {
     width: 50%;
     border-radius: 50%;
 }
 
-.sectionbannercurledright {
-    border-top-left-radius: 53px;
-    border-bottom-left-radius: 53px;
-    /* float: right; */
-    text-align: center;
-    /* width: 50%; */
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-basis: 50%;
-}
-
-.senseiright {
-    width: 50%;
-    border-radius: 50%;
-    margin-left: 1px;
-    margin-right: 1px;
+.sectionbannercurled.right {
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    padding-left: 5px;
 }
 
 .sensei1para {
@@ -265,13 +262,17 @@ MEDIA QUERIES BELOW
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 600px) {
 
 body {
     width: 90%;
 }
 
-    .mainlogo {
+p {
+    font-size: 14px;
+    }
+
+.mainlogo {
     max-width: 22%;    
 }
     
@@ -284,6 +285,10 @@ body {
     font-weight: 300;
 }
     
+.curlpara {
+    font-size: 16px;
+}
+    
 td, th {
   padding: 15px 20px 15px 20px;
 }
@@ -292,8 +297,14 @@ td, th {
     height: 300px;
     margin-bottom: 15px;
 }
+}
 
 @media (min-width: 900px) {
+
+    .sectionbanner {
+    margin-top: 15px;
+    margin-bottom: 15px;  
+    }
     
 .maintitle {
     flex-basis: 40%;
@@ -302,6 +313,10 @@ td, th {
 .maintitle_style {
     font-size: 40px;
     font-weight: 300
+}
+
+.curlpara {
+    font-size: 18px;
 }
     
 html {
@@ -325,6 +340,11 @@ td, th {
 html {
     background: linear-gradient(to right, #a01108 0, #ebba72 7%, #ebba72 93%, #a01108 100%)
 }
+
+.curlpara {
+    font-size: 20px;
+}
+  
 }
 
 @media (min-width: 1150px) {
