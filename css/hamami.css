@@ -1,5 +1,5 @@
 html {
-    background: linear-gradient(to right, #a01108 0, #ebba72 4.5%, #ebba72 95.5%, #a01108 100%)
+    background: linear-gradient(to right, #ebba72 0, white 50%, #ebba72 100%, #a01108 100%)
 }
 
 body {
@@ -14,7 +14,6 @@ body {
 
 .sidecontainer {
     padding: 10px;
-    clear: both
 }
 
 p {
@@ -123,7 +122,7 @@ nav ul li a:hover {
 }
 
 .image_backneedles {
-    margin: 0 auto -2px auto;
+    margin: 0 auto -1px auto;
     padding: 0;
     max-width: 100%;
     text-align: center;
@@ -132,19 +131,14 @@ nav ul li a:hover {
 section {
     margin-top: 5px;
     margin-bottom: 5px;
-    
 }
 
 .flexifysection {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content:space-between;
-}
-
-.nopicflexbasis0 {
-    flex-basis: 30% !important;
-    padding-top: 20px !important;
-    padding-bottom: 20px !important;
 }
 
 .nopicflexbasis1 {
@@ -152,11 +146,48 @@ section {
     text-align: justify;
     height: 100%;
     margin: 0 auto;
-    flex-basis: 70% !important;
+    flex-basis: 55%;
 }
 
 .fullwidthbanner {
     margin: 10px 0 10px 0;
+}
+
+
+.sectionbannero {
+    color: #313131;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.sectionbannercurledo {
+        /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 35%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sectionbannercurledo.lefto {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 10px;
+}
+
+.curlparao {
+    width: 45%;
+}
+
+.senseio {
+    width: 50%;
+    border-radius: 50%;
 }
 
 .sectionbanner {
@@ -176,14 +207,14 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-basis: 50%;
+    flex-basis: 45%;
     padding-right: 0px;
     padding-left: 0px;
 }
 .sectionbannercurled.left {
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 
 .curlpara {
@@ -198,15 +229,20 @@ section {
 .sectionbannercurled.right {
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .sensei1para {
-    padding: 2%;
+    padding: ;
     text-align: center;
     height: 100%;
     margin: 0 auto;
-    flex-basis: 50%;
+    flex-basis: 45%;
+    width: 50%;
+}
+
+div.top {
+    width: 50%;
 }
 
 .centering {
@@ -264,13 +300,87 @@ MEDIA QUERIES BELOW
 
 @media (min-width: 600px) {
 
+/*repositioning for sensei*/
+.column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+}
+    
+img.sensei {
+    width: 40%
+    }
+
+.sectionbannercurled.right, .sectionbannercurled.left {
+    padding-left: 0;
+    padding-right: 0
+    }
+
+/* for sensei 1*/
+.sensei1para.top {
+    order: 1;
+    width: 45%;
+    flex-basis: 25%; 
+    padding: 0;
+    margin: 0;
+}
+    
+.sidecontainer.top {
+    padding: 10px;
+    flex-basis: auto;
+    order: 2;
+    width: 45%;
+    flex-basis: 36%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+    
+.right {
+    order: 3;
+    width: 50%;
+    flex-basis: 100%;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+}
+    
+/* for sensei 2*/
+.sensei1para.bottom {
+     order: 2;
+    width: 45%;
+    flex-basis: 35%; 
+    padding: 0;
+    margin: 0;
+    }
+    
+.sidecontainer.bottom {
+    padding: 10px;
+    flex-basis: 40%;
+    order: 3;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+}
+.left {
+    width: 50%;
+    flex-basis: 100%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+    
 body {
-    width: 90%;
+    width: 100%;
 }
 
 p {
-    font-size: 14px;
-    }
+    font-size: 13px;
+}
 
 .mainlogo {
     max-width: 22%;    
@@ -301,10 +411,14 @@ td, th {
 
 @media (min-width: 900px) {
 
-    .sectionbanner {
+p {
+    font-size: 14px;
+}
+    
+.sectionbanner {
     margin-top: 15px;
     margin-bottom: 15px;  
-    }
+}
     
 .maintitle {
     flex-basis: 40%;
@@ -317,10 +431,6 @@ td, th {
 
 .curlpara {
     font-size: 18px;
-}
-    
-html {
-    background: linear-gradient(to right, #a01108 0, #ebba72 5%, #ebba72 95%, #a01108 100%)
 }
     
 td, th {
@@ -337,19 +447,8 @@ td, th {
 
 @media (min-width: 1024px) {
 
-html {
-    background: linear-gradient(to right, #a01108 0, #ebba72 7%, #ebba72 93%, #a01108 100%)
-}
-
 .curlpara {
     font-size: 20px;
 }
   
-}
-
-@media (min-width: 1150px) {
-
-html {
-    background: linear-gradient(to right, #a01108 0, #ebba72 13%, #ebba72 87%, #a01108 100%)
-}
 }
