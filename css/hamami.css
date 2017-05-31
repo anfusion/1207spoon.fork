@@ -13,7 +13,10 @@ body {
 }
 
 .sidecontainer {
-    padding: 10px;
+    padding-top 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: 0 auto;
 }
 
 p {
@@ -92,7 +95,7 @@ nav ul li {
 }
 
 .firstnav {
-    background-color: #DCF7F3;
+    background: linear-gradient(to right, orange 0%, #ebba72 60%)  
 }
 
 nav ul li a {
@@ -272,7 +275,7 @@ th {
     width: 90%;
     height: 200px;
     background-color: grey;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .footer {
@@ -309,8 +312,16 @@ p {
 
 .curlpara {
     font-size: 16px;
-    }
+}
 
+#map {
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    
+    
 }
 
 @media (min-width: 650px) {
@@ -421,7 +432,10 @@ td, th {
 
 #map {
     height: 300px;
-    margin-bottom: 15px;
+    width: 88%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
 }
 }
 
@@ -483,14 +497,20 @@ td, th {
 }    
 
 #map {
+    width: 87%;
     height: 400px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
     
 }
 
 @media (min-width: 1024px) {
 
+.left, .right {
+    flex-basis: 100%;
+}
+    
 .curlpara {
     font-size: 20px;
 }
