@@ -257,7 +257,8 @@ div.top {
 table {
     background-color: #f6debd;
     border-collapse: collapse;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
   }
 
 td, th {
@@ -291,6 +292,11 @@ MEDIA QUERIES BELOW
 .maintitle {
   flex-basis: 50%;
 }
+    
+td, th {
+  padding: 7px 9px 7px 9px;
+}
+    
 }
 
 @media (min-width: 410px) {
@@ -298,7 +304,13 @@ MEDIA QUERIES BELOW
 .maintitle_style {
     font-size: 28px;
 }
+
+td, th {
+  padding: 8px 10px 8px 10px;
 }
+    
+}
+
 
 @media (min-width: 500px) {
     
@@ -312,6 +324,10 @@ p {
 
 .curlpara {
     font-size: 16px;
+}
+    
+td, th {
+  padding: 10px 15px 10px 15px;
 }
 
 #map {
