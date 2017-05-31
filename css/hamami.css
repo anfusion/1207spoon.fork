@@ -297,8 +297,23 @@ MEDIA QUERIES BELOW
 }
 }
 
+@media (min-width: 500px) {
+    
+.sensei1para {
+font-size: 15px;
+}
 
-@media (min-width: 600px) {
+p {
+    font-size: 14px;
+}
+
+.curlpara {
+    font-size: 16px;
+    }
+
+}
+
+@media (min-width: 650px) {
 
 /*repositioning for sensei*/
 .column {
@@ -310,8 +325,11 @@ MEDIA QUERIES BELOW
 }
     
 img.sensei {
-    width: 40%
-    }
+    width: 40%;
+    margin-left: -1.5%;
+    margin-right: -1.5%;
+}
+
 
 .sectionbannercurled.right, .sectionbannercurled.left {
     padding-left: 0;
@@ -342,7 +360,7 @@ img.sensei {
 .right {
     order: 3;
     width: 50%;
-    flex-basis: 100%;
+    flex-basis: 70%;
     padding: 0;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -369,7 +387,7 @@ img.sensei {
 }
 .left {
     width: 50%;
-    flex-basis: 100%;
+    flex-basis: 70%;
     padding: 0;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -378,10 +396,6 @@ img.sensei {
     
 body {
     width: 100%;
-}
-
-p {
-    font-size: 13px;
 }
 
 .mainlogo {
@@ -398,7 +412,7 @@ p {
 }
     
 .curlpara {
-    font-size: 16px;
+    font-size: 24px;
 }
     
 td, th {
@@ -411,12 +425,35 @@ td, th {
 }
 }
 
+@media (min-width: 725px) {
+
+.left, .right {
+    flex-basis: 75%;
+}
+
+}
+
+@media (min-width: 760px) {
+
+.left, .right {
+    flex-basis: 80%;
+}
+
+}
+@media (min-width: 815px) {
+
+.left, .right {
+    flex-basis: 85%;
+}
+
+}
+
 @media (min-width: 900px) {
 
 p {
     font-size: 14px;
 }
-    
+
 .sectionbanner {
     margin-top: 15px;
     margin-bottom: 15px;  
@@ -432,8 +469,13 @@ p {
 }
 
 .curlpara {
-    font-size: 18px;
+    font-size: 24px;
 }
+    
+.left, .right {
+    flex-basis: 90%;
+}
+
     
 td, th {
   padding: 15px 30px 15px 30px;
