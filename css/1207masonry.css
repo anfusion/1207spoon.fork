@@ -1,13 +1,80 @@
-body {
-  font: 1em/1.67 'Open Sans', Arial, Sans-serif;
-  margin: 0;
-  background: #e9e9e9;
-  background-size: contain;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('https://github.com/anfusion/anfusion.github.io/blob/master/images/backgroundscreenshotimage.png?raw=true');
+html {
+    background: linear-gradient(to right, #ebba72 0, white 50%, #ebba72 100%, #a01108 100%)
 }
 
+body {
+    font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic Pro", Sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FCFBE3;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 900px;
+}
+
+.sidecontainer {
+    padding-top 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.txtcentering {
+    text-align: center;
+}
+    
+.header_flexwrap {
+    display: flex;
+    width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.flex_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainlogo {
+    flex-basis: 30%;
+    margin: 4%;
+    max-width: 100%;    
+
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.maintitle {
+  flex-basis: 60%;
+    margin: 4%;
+    margin-left: 0;
+}
+
+
+.maintitle_style {
+    font-size: 23px;
+    font-family:  "Noto Sans Japanese", "Sawarabi Mincho", "Hiragino Kaku Gothic Pro";
+    font-weight: 200
+}
+
+
 nav {
-  width: 100%;
+    width: 100%;
 }
 
 nav ul {
@@ -19,20 +86,16 @@ nav ul {
 }
 
 nav ul li {
-  width: 25%;
-  float: left;
-  background: -moz-linear-gradient(top, #f5f5f5 0%, #fff 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #fff));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #f5f5f5 0%, #fff 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #f5f5f5 0%, #fff 100%);
-  /* Opera 11.10+ */
-  background: linear-gradient(to bottom, #f5f5f5 0%, #fff 100%);
-  /* W3C standard, IE10+ */
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fff', GradientType=0);
-  /* IE6-9 */
+    width: 25%;
+    float: left;
+    background-color: #ebba72;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.firstnav {
+    background: linear-gradient(to right, #DCF7F3 70%, #ebba72 100%)  
 }
 
 nav ul li a {
@@ -41,250 +104,437 @@ nav ul li a {
 }
 
 nav ul li a {
-  color: #A9A9A9;
+  color: #313131;
   text-align: center;
-  padding: 25px 0;
+  padding: 10px 0;
   display: block;
   width: 100%;
-    font-size: 2em;
 }
 
 nav ul li a:link {
   text-decoration: none;
 }
-
-nav ul li a:visited {
+/*nav ul li a:visited {
   color: #A9A9A9;
-}
-
+}*/
 nav ul li a:hover {
-  background-color: #F5F5F5;
+  background-color: #DCF7F3;
   color: #111;
   /* x offset, y offset, size, color */
   transition: all 0.5s ease;
 }
 
-.topleftlogobotimageli {
-  padding: 0;
-}
-
-.topleftlogobotimage {
-    padding-top: 31px;
-    padding-bottom: 21px;
-    padding-left: 4px;
-    width: 199px;
-}
-
-.masonry {
-  margin-bottom: 0;
-  margin-top: 0;
-  padding: 0;
-  -moz-column-gap: 0;
-  -webkit-column-gap: 0;
-  column-gap: 0;
-  font-size: .85em;
-}
-
-.breakpoint {
-  break-after: column;
-}
-
-hr {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
-.imglarge {
-  max-width: 100%;
-  display: block;
-  margin: auto;
-}
-
-.imgmedlrg {
-  max-width: 100%;
-  max-height: 30vh;
-  display: block;
-  margin: auto;
-}
-
-.imgmed {
-  max-width: 100%;
-  max-height: 20vh;
-  display: block;
-  margin: auto;
-  padding-top: 6vh;
-}
-
-.imgsmall {
-  max-width: 100%;
-  max-height: 8.5vh;
-  display: block;
-  margin: auto;
-  padding: 3px !important;
-}
-
-.image_light {
-  padding-top: 0 !important;
-  max-height: 40vh;
-  margin-bottom: 5px !important;
-}
-
-.item {
-  display: inline-block;
-  padding: 2px;
-  margin: 0 0 0;
-  width: 100%;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
-}
-
-.image_isu {
-  height: 33vh;
-  padding-top: 3%;
-  position: relative;
-  top: 11vh;
-  left: 1vh;
-  break-after: column;
-}
-
-.image_tile {
-    position: relative;
-    bottom: 5%;
-    right: 5%;
-    height: 6vh;
-    margin: 8vh auto;
-}
-
-.image_tsukue {
-  height: 33vh;
-  margin-left: 0;
-  margin-top: 2%;
-  break-after: column;
-}
-
-.nopad {
-  padding: 3px;
-  margin-bottom: 2px;
-  height: 8vh;
-}
-
-.image_owan {
-  max-width: 100%;
-  max-height: 8vh;
-  display: block;
-  margin: auto;
-  padding-top: 15px;
-  position: relative;
-  right: 0vh;
-  top: 3vh;
-}
-
-.image_cupnoback {
-  margin: 1px;
-  position: relative;
-  bottom: -4vh;
-  left: 20vw;
-}
-
-.image_cuplegsconnected {
-  position: relative;
-  bottom: -4vh;
-  right: 4vw;
-}
-
-.image_1207 {
+.image_backneedles {
+    margin: 0 auto -1px auto;
+    padding: 0;
     max-width: 100%;
-    max-height: 10vh;
-    display: block;
-    margin: auto;
-    padding-top: 8vh;
-    padding-bottom: 5vh;
+    text-align: center;
 }
 
-.image_hikidashi {
-  max-width: 100%;
-  max-height: 6vh;
-  display: block;
-  margin: auto;
-  padding: 5% 0;
-  position: relative;
-  visibility: hidden;
+section {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.image_yakan {
-  height: 18vh;
-  position: relative;
-  top: ;
-  left: 2vw;
-  padding-bottom: 1vh;
+.flexifysection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
 }
 
-.image_yuukari {
-  position: relative;
-  left: 2vw;
-  height: 26vh;
-  padding-top: 5vh;
+.nopicflexbasis1 {
+    padding: 2%;
+    text-align: justify;
+    height: 100%;
+    margin: 0 auto;
+    flex-basis: 55%;
 }
 
-.image_totte {
-    height: 4vh;
-    margin-top: 4vh;
-    position: relative;
-    right: 2vh;
+.fullwidthbanner {
+    margin: 10px 0 10px 0;
 }
 
-.image_hasu {
-  position: relative;
-  left: 4vw;
+
+.sectionbannero {
+    color: #313131;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
 }
 
-@media only screen and (min-width: 100px) {
-  .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
+.sectionbannercurledo {
+        /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 35%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sectionbannercurledo.lefto {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 10px;
+}
+
+.curlparao {
+    width: 45%;
+}
+
+.senseio {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sectionbanner {
+    color: #313131;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.sectionbannercurled {
+        /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 45%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sectionbannercurled.left {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 10px;
+}
+
+.curlpara {
+    width: 45%;
+}
+
+.sensei {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sectionbannercurled.right {
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    padding-left: 10px;
+}
+
+.sensei1para {
+    padding: ;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    flex-basis: 45%;
+    width: 50%;
+}
+
+div.top {
+    width: 50%;
+}
+
+.centering {
+    margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
   }
+
+table {
+    background-color: #f6debd;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+td, th {
+  border: 1px solid #999;
+  padding: 5px;
+  text-align: left;
+  font-weight: 400;
 }
 
-@media only screen and (min-width: 400px) {
-  .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
+th {
+    background-color: #f2daa9;
 }
 
-@media only screen and (min-width: 700px) {
-  .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
+#map {
+    width: 90%;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 15px;
 }
 
-@media only screen and (min-width: 900px) {
-  .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
+.footer {
+    margin-bottom: 0px;
 }
 
-@media only screen and (min-width: 1100px) {
-  .masonry {
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    column-count: 3;
-  }
+/*--------------------
+MEDIA QUERIES BELOW
+---------------------*/ 
+
+@media (min-width: 370px) {
+
+.maintitle {
+  flex-basis: 50%;
+}
+    
+td, th {
+  padding: 7px 9px 7px 9px;
+}
+    
 }
 
-@media only screen and (min-width: 1280px) {
-  .wrapper {
-    width: 1260px;
-  }
+@media (min-width: 410px) {
+
+.maintitle_style {
+    font-size: 28px;
+}
+
+td, th {
+  padding: 8px 10px 8px 10px;
+}
+    
+}
+
+
+@media (min-width: 500px) {
+
+.maintitle_style {
+    font-size: 30px;
+}
+    
+.sensei1para {
+font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.curlpara {
+    font-size: 16px;
+}
+    
+td, th {
+  padding: 10px 15px 10px 15px;
+}
+
+#map {
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    
+}
+
+@media (min-width: 650px) {
+
+/*repositioning for sensei*/
+.column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+}
+
+img.sensei {
+    width: 40%;
+    margin-left: -1.5%;
+    margin-right: -1.5%;
+}
+
+img.cartneedles {
+    margin-right: -4%;
+    }
+
+.sectionbannercurled.right, .sectionbannercurled.left {
+    padding-left: 0;
+    padding-right: 0
+    }
+
+/* for sensei 1*/
+.sensei1para.top {
+    order: 1;
+    width: 45%;
+    flex-basis: 25%; 
+    padding: 0;
+    margin: 0;
+}
+    
+.sidecontainer.top {
+    padding: 10px;
+    flex-basis: auto;
+    order: 2;
+    width: 45%;
+    flex-basis: 36%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    text-align: center;
+}
+    
+.right {
+    order: 3;
+    width: 50%;
+    flex-basis: 70%;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+}
+    
+/* for sensei 2*/
+.sensei1para.bottom {
+     order: 2;
+    width: 45%;
+    flex-basis: 35%; 
+    padding: 0;
+    margin: 0;
+    }
+    
+.sidecontainer.bottom {
+    padding: 10px;
+    flex-basis: 40%;
+    order: 3;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.left {
+    width: 50%;
+    flex-basis: 70%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+    
+body {
+    width: 100%;
+}
+
+.mainlogo {
+    max-width: 22%;    
+}
+    
+.maintitle {
+    flex-basis: 40%;
+}
+    
+.maintitle_style {
+    font-size: 35px;
+    font-weight: 300;
+}
+    
+.curlpara {
+    font-size: 24px;
+}
+    
+td, th {
+  padding: 15px 20px 15px 20px;
+}
+
+#map {
+    height: 300px;
+    width: 88%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+}
+}
+
+@media (min-width: 725px) {
+
+.left, .right {
+    flex-basis: 75%;
+}
+
+}
+
+@media (min-width: 760px) {
+
+.left, .right {
+    flex-basis: 80%;
+}
+
+}
+@media (min-width: 815px) {
+
+.left, .right {
+    flex-basis: 85%;
+}
+
+}
+
+@media (min-width: 900px) {
+
+p {
+    font-size: 14px;
+}
+
+.sectionbanner {
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+    
+.maintitle {
+    flex-basis: 40%;
+}
+    
+.maintitle_style {
+    font-size: 40px;
+    font-weight: 300
+}
+
+.curlpara {
+    font-size: 24px;
+}
+    
+.left, .right {
+    flex-basis: 90%;
+}
+
+    
+td, th {
+  padding: 15px 30px 15px 30px;
+    font-size: 20px;
+}    
+
+#map {
+    width: 87%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+    
+}
+
+@media (min-width: 1024px) {
+
+.left, .right {
+    flex-basis: 100%;
+}
+    
+.curlpara {
+    font-size: 20px;
+}
+  
 }
