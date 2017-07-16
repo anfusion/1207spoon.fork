@@ -1,5 +1,6 @@
 body {
 	background: #25A9FC;
+    font-family: "Noto Sans Japanese", Arial, Sans-serif;
 }
 
 .box {
@@ -14,7 +15,6 @@ body {
 }
 
 .speechtop {
-	font: Arial;
 	position: absolute;;
 	width: 100%;
 	top: 1%;
@@ -22,7 +22,6 @@ body {
 }
 
 .speechbottom {
-	font: Arial;
 	position: absolute;
 	width: 100%;
 	top: 92%;
