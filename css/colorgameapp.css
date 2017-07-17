@@ -17,12 +17,14 @@ body {
 }
 
 #container {
+	width:90%;
 	max-width: 600px;
 	margin: 20px auto;
 
 }
 
 h1 {
+	font-size: 16px;
 	color: white;
 	text-align: center;
 	background-color: steelblue;
@@ -34,6 +36,24 @@ h1 {
 	transition: background-color 0.4s;
 	--webkit-transtion: background-color 0.4s;
 	--moz-transtion: background-color 0.4s;
+}
+
+@media (min-width: 500px) {
+
+	h1 {
+		font-size: 32px;
+		color: white;
+		text-align: center;
+		background-color: steelblue;
+		margin: 0;
+		font-weight: normal;
+		text-transform: uppercase;
+		line-height: 1.1;
+		padding: 20px 0;
+		transition: background-color 0.4s;
+		--webkit-transtion: background-color 0.4s;
+		--moz-transtion: background-color 0.4s;
+	}
 }
 
 #colorDisplay {
