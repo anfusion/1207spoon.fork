@@ -8,13 +8,21 @@ body {
  	background: -webkit-linear-gradient(to right, #CB429F, #690375); /* Chrome 10-25, Safari 5.1-6 */
  	background: linear-gradient(to right, #CB429F, #690375); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
  	font-family: Roboto;
+ 	width: 100%;
 }
 
 #container {
 	background-color: #AE847E;
 	margin: 100px auto;
-	width: 360px;
+	width: 80%;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+@media (min-width: 450px) {
+
+#container {
+	width: 360px;
+}
 }
 
 h1 {
