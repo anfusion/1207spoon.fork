@@ -256,6 +256,7 @@ table {
     border-collapse: collapse;
     margin-top: 10px;
     margin-bottom: 15px;
+    width: 95%;
   }
 
 td, th {
