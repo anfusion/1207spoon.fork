@@ -1,0 +1,549 @@
+html {
+    background: linear-gradient(to right, #ebba72 0, white 50%, #ebba72 100%, #a01108 100%)
+}
+
+body {
+    font-family: "Noto Sans Japanese", "Hiragino Kaku Gothic Pro", Sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #FCFBE3;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    max-width: 900px;
+}
+
+.sidecontainer {
+    padding-top 10px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.txtcentering {
+    text-align: center;
+}
+    
+.header_flexwrap {
+    display: flex;
+    width: 100%;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.flex_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainlogo {
+    flex-basis: 30%;
+    margin: 4%;
+    max-width: 100%;    
+
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.maintitle {
+  flex-basis: 60%;
+    margin: 4%;
+    margin-left: 0;
+}
+
+
+.maintitle_style {
+    font-size: 23px;
+    font-family:  "Noto Sans Japanese", "Sawarabi Mincho", "Hiragino Kaku Gothic Pro";
+    font-weight: 200
+}
+
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+    width: 25%;
+    float: left;
+    background-color: #ebba72;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.firstnav {
+    background: linear-gradient(to right, #DCF7F3 1%, #ebba72 100%)  
+}
+
+nav ul li a {
+  color: #313131;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
+nav ul li a:link {
+  text-decoration: none;
+}
+/*nav ul li a:visited {
+  color: #A9A9A9;
+}*/
+nav ul li a:hover {
+  background-color: #DCF7F3;
+  color: #111;
+  /* x offset, y offset, size, color */
+  transition: all 0.5s ease;
+}
+
+.image_backneedles {
+    margin: 0 auto -1px auto;
+    padding: 0;
+    max-width: 100%;
+    text-align: center;
+}
+
+section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.flexifysection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nopicflexbasis1 {
+    padding: 2%;
+    text-align: justify;
+    height: 100%;
+    margin: 0 auto;
+    flex-basis: 55%;
+}
+
+.fullwidthbanner {
+    margin: 10px 0 10px 0;
+}
+
+
+.sectionbannero {
+    color: #313131;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.sectionbannercurledo {
+        /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 35%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.sectionbannercurledo.lefto {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 10px;
+}
+
+.curlparao {
+    width: 45%;
+}
+
+.senseio {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sectionbanner {
+    color: #313131;
+    padding: 12px 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #ebba72;
+    font-size: 12px;
+    font-family: "Noto Sans Japanese", "Sawarabi Mincho", "Hannari", "Hiragino Kaku Gothic Pro";
+}
+
+.sectionbannercurled {
+        /* float: right; */
+    text-align: center;
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 65%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+.sectionbannercurled.left {
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    padding-right: 10px;
+}
+
+.curlpara {
+    width: 45%;
+}
+
+.sensei {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.sectionbannercurled.right {
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    padding-left: 10px;
+}
+
+.sensei1para {
+    padding: ;
+    text-align: center;
+    height: 100%;
+    margin: 0 auto;
+    flex-basis: 25%;
+    width: 30%;
+}
+
+div.top {
+    width: 50%;
+}
+
+.centering {
+    margin-left:auto; 
+    margin-right:auto;
+    border-collapse: collapse;
+  }
+
+table {
+    background-color: #f6debd;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+td, th {
+  border: 1px solid #999;
+  padding: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+td {
+    background-color: lightblue;
+
+}
+
+.not-open-color {
+    background-color: #FF9DB3;
+}
+
+th {
+    background-color: #f3ebbA;
+}
+
+#map {
+    width: 90%;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 15px;
+}
+
+.address-and-hours {
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 0px;
+}
+
+/*--------------------
+MEDIA QUERIES BELOW
+---------------------*/ 
+
+@media (min-width: 370px) {
+
+.maintitle {
+  flex-basis: 50%;
+}
+    
+td, th {
+  padding: 7px 9px 7px 9px;
+}
+    
+}
+
+@media (min-width: 410px) {
+
+.maintitle_style {
+    font-size: 28px;
+}
+
+td, th {
+  padding: 8px 10px 8px 10px;
+}
+    
+}
+
+
+@media (min-width: 500px) {
+
+.maintitle_style {
+    font-size: 30px;
+}
+    
+.sensei1para {
+font-size: 15px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.curlpara {
+    font-size: 16px;
+}
+    
+td, th {
+  padding: 10px 15px 10px 15px;
+}
+
+#map {
+    width: 90%;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+    
+}
+
+@media (min-width: 650px) {
+
+/*repositioning for sensei*/
+.column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 230px;
+    align-items: center;
+    justify-content: center;
+}
+
+img.sensei {
+    width: 40%;
+    margin-left: -1.5%;
+    margin-right: -1.5%;
+}
+
+img.cartneedles {
+    margin-right: -4%;
+    }
+
+.sectionbannercurled.right, .sectionbannercurled.left {
+    padding-left: 0;
+    padding-right: 0
+    }
+
+/* for sensei 1*/
+.sensei1para.top {
+    order: 1;
+    width: 45%;
+    flex-basis: 25%; 
+    padding: 0;
+    margin: 0;
+}
+    
+.sidecontainer.top {
+    padding: 10px;
+    flex-basis: auto;
+    order: 2;
+    width: 40%;
+    flex-basis: 36%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    text-align: center;
+}
+    
+.right {
+    order: 3;
+    width: 50%;
+    flex-basis: 70%;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    align-self: flex-end;
+}
+    
+/* for sensei 2*/
+.sensei1para.bottom {
+     order: 2;
+    width: 45%;
+    flex-basis: 35%; 
+    padding: 0;
+    margin: 0;
+    }
+    
+.sidecontainer.bottom {
+    padding: 10px;
+    flex-basis: 40%;
+    order: 3;
+    width: 45%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.left {
+    width: 50%;
+    flex-basis: 70%;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+}
+    
+body {
+    width: 100%;
+}
+
+.mainlogo {
+    max-width: 22%;    
+}
+    
+.maintitle {
+    flex-basis: 40%;
+}
+    
+.maintitle_style {
+    font-size: 35px;
+    font-weight: 300;
+}
+    
+.curlpara {
+    font-size: 24px;
+}
+    
+td, th {
+  padding: 15px 20px 15px 20px;
+}
+
+#map {
+    height: 300px;
+    width: 88%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+}
+}
+
+@media (min-width: 725px) {
+
+.left, .right {
+    flex-basis: 75%;
+}
+
+}
+
+@media (min-width: 760px) {
+
+.left, .right {
+    flex-basis: 80%;
+}
+
+}
+@media (min-width: 815px) {
+
+.left, .right {
+    flex-basis: 85%;
+}
+
+}
+
+@media (min-width: 900px) {
+
+p {
+    font-size: 14px;
+}
+
+.sectionbanner {
+    margin-top: 15px;
+    margin-bottom: 15px;  
+}
+    
+.maintitle {
+    flex-basis: 40%;
+}
+    
+.maintitle_style {
+    font-size: 40px;
+    font-weight: 300
+}
+
+.curlpara {
+    font-size: 24px;
+}
+    
+.left, .right {
+    flex-basis: 90%;
+}
+
+    
+td, th {
+  padding: 15px 30px 15px 30px;
+    font-size: 20px;
+}    
+
+#map {
+    width: 87%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+    
+}
+
+@media (min-width: 1024px) {
+
+.left, .right {
+    flex-basis: 100%;
+}
+    
+.curlpara {
+    font-size: 20px;
+}
+  
+}
