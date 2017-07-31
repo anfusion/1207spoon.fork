@@ -5,7 +5,7 @@
           center: Hamami
         });
         var marker = new google.maps.Marker({
-          position: Hamami
+          position: Hamami,
           map: map
         });
       }
