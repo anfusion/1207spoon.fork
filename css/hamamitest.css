@@ -1,3 +1,9 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 html {
     background: linear-gradient(to right, #ebba72 0, white 50%, #ebba72 100%, #a01108 100%)
 }
@@ -182,6 +188,7 @@ section {
 
 .curlparao {
     width: 45%;
+    padding-left: 5px;
 }
 
 .senseio {
