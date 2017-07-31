@@ -15,7 +15,7 @@ body {
 .sidecontainer {
     padding-top 10px;
     padding-bottom: 10px;
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -236,7 +236,7 @@ section {
     text-align: center;
     height: 100%;
     margin: 0 auto;
-    flex-basis: 25%;
+    flex-basis: 21%;
     width: 30%;
     max-height: 60px;
 }
