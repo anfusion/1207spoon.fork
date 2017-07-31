@@ -145,6 +145,7 @@ section {
     height: 100%;
     margin: 0 auto;
     flex-basis: 55%;
+    margin-bottom: 15px;
 }
 
 .fullwidthbanner {
