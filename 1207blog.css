@@ -98,7 +98,7 @@ h1{
 	flex-wrap: nowrap;
 	align-items:center;
 	height: 200px;
-	margin: 5px;
+	margin: 5px 10px 5px 10px;
 }
 
 .flex_blog_card_picture {
