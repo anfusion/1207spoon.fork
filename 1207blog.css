@@ -79,6 +79,7 @@ nav img {
 h1{
 	font-family: Helvetica;
 	flex-basis: 100%;
+	margin-left: 10px;
 }
 
 .cards {
@@ -97,7 +98,7 @@ h1{
 	flex-direction: row;
 	flex-wrap: nowrap;
 	align-items:center;
-	height: 200px;
+	height: 180px;
 	margin: 5px 10px 5px 10px;
 }
 
