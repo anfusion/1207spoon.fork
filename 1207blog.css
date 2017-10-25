@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-
 }
 
 *, *:before, *:after {
@@ -9,7 +8,6 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
 	background-color: whitesmoke;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%), url(images/backgroundscreenshotimage.png);
 }
