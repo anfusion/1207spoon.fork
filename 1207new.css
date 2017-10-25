@@ -1,0 +1,266 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	background-color: whitesmoke;
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.4) 100%), url(images/backgroundscreenshotimage.png);
+}
+
+/*NAVBAR CSS*/
+
+nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;	
+	height: 7vh;
+	background-color: whitesmoke;
+	border-bottom: 1px solid gray;
+	max-height: 45px;
+}
+
+.nav_items {
+	flex-basis: 25%;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+} 
+
+nav a {
+	color: #A9A9A9;
+	text-align: center;
+	background: -moz-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #fff));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+	/* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f5f5f5 0%, #fff 100%);
+	/* Opera 11.10+ */
+	background: linear-gradient(to bottom, #f5f5f5 0%, #fff 100%);
+	/* W3C standard, IE10+ */
+	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#fff', GradientType=0);
+	/* IE6-9 */
+}
+
+.nav_border {
+    border-right: 1px solid #f3f3f3;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #A9A9A9;
+}
+
+nav a:hover {
+  background: #F5F5F5;
+  color: #111;
+  /* x offset, y offset, size, color */
+  transition: all 0.3s ease;
+}
+
+nav img {
+	max-width: 90%;
+	max-height: 30px;
+}
+
+.flex_container_all {
+	height: 93vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	max-width: 1080px;
+	margin: auto;
+}
+
+.flex_column {
+	flex-basis: 33.33%;
+	padding: 5px 10px 5px 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;	
+}
+
+.column1 {
+	padding-top: 0px;
+	justify-content: space-between;
+}
+
+div a {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	filter: drop-shadow(0.5px 0.5px 0.5px gray) 
+	        drop-shadow(-0.5px -0.5px 0.5px gray);
+}
+
+
+/*COLUMN 1*/
+.light {
+    background-image: url(images/light.png);	
+	flex: 0 1 40%;
+	position: relative;
+	left: ;
+}
+
+.tile {
+    background-image: url(images/tile.png);	
+	flex: 0 1 8%;
+	position: relative;
+	right: 3vw;
+}
+
+.tsukue {
+    background-image: url(images/tsukue.png);	
+	flex: 0 1 35%;
+	position: relative;
+	right: 4vw;
+}
+
+
+/*COLUMN 2*/
+
+
+
+.cupnoback {
+    background-image: url(images/cupnoback.png);	
+    flex: 0 1 10%;
+    position: relative;
+    left: -5vw;
+}
+
+.owan {
+    background-image: url(images/owan.png);	
+	flex: 0 1 8%;
+    position: relative;
+    left: 2vw;
+}
+
+.image_1207logobig_button {
+    background-image: url(images/image_1207logobig_button.png);	
+	flex: 0 1 15%;
+    width: 120%;
+    position: relative;
+    right: 10%;
+}
+
+.cuplegsconnected {
+    background-image: url(images/cuplegsconnected.png);	
+	flex: 0 1 8%;
+	position: relative;
+    right: 4vh;
+}
+
+.isu {
+    background-image: url(images/isu.png);	
+	flex: 0 1 35%;
+	position: relative;
+	bottom: 2vh
+}
+
+
+/*COLUMN 3*/
+.yuukari {
+    background-image: url(images/yuukari.png);	
+	flex: 0 1 22%;
+}
+
+.yakan {
+    background-image: url(images/yakan.png);	
+	flex: 0 1 27%;
+    position: relative;
+    left: 0vw;
+}
+
+.totte {
+    background-image: url(images/totte.png);	
+	flex: 0 1 8%;
+	position: relative;
+	right: 1vw;
+}
+
+.hasu {
+    background-image: url(images/hasu.png);	
+	flex: 0 1 24%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html {
+	background-color: blue;
+}
+
+.flex_container_outer {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;}
+
+.flex_container {
+	display: flex;
+	flex: 1%;
+	flex-flow: column nowrap;
+	height: 100vh;
+	align-items: center;
+}
+
+.flex_item {
+	border: 1px solid white;
+	width: 100%;
+	display: flex;
+    padding: 10px;
+
+}
+
+#light {
+	flex: 1 1 100%;
+}
+
+a {
+    background-image: url(images/light.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}*/
