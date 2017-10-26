@@ -149,24 +149,28 @@ div img {
 }
 
 .flex_blog_card.bg1 {
-	background-color: rgba(232, 69, 96, 0.5);
-	color: rgb(255,255,153);	
+	background-color: rgba(232, 69, 96, 0.55);
+	color: navy;	
 }
 
 .flex_blog_card.bg2 {
-	background-color: rgba(20, 17, 110, 0.5);
+	background-color: rgba(20, 17, 110, 0.55);
 	color: black;	
 }
 
 .flex_blog_card.bg3 {
-	background-color: rgba(218, 223, 0, 0.5);
+	background-color: rgba(218, 223, 0, 0.55);
 	color: black;	
 }
 
 .flex_blog_card.bg4 {
-	background-color: rgba(20, 17, 110, 0.5);
+	background-color: rgba(20, 17, 110, 0.55);
 	color: white;	
 }
+
+
+
+
 
 
 
