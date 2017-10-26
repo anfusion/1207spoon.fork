@@ -150,7 +150,7 @@ div img {
 
 .flex_blog_card.bg1 {
 	background-color: rgba(232, 69, 96, 0.5);
-	color: rgba(20, 17, 110, 0.9);	
+	color: rgb(255,255,153);	
 }
 
 .flex_blog_card.bg2 {
@@ -167,6 +167,7 @@ div img {
 	background-color: rgba(20, 17, 110, 0.5);
 	color: white;	
 }
+
 
 
 
