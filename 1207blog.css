@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "San Fransisco", "Helvetica";
-
+  font-family: "San Fransisco";
 }
 
 *, *:before, *:after {
@@ -150,52 +149,24 @@ div img {
 }
 
 .flex_blog_card.bg1 {
-	background-color: rgba(232, 69, 96, 0.75);
-	color: white;	
+	background-color: rgba(232, 69, 96, 0.5);
+	color: rgba(20, 17, 110, 0.9);	
 }
 
 .flex_blog_card.bg2 {
-	background-color: rgba(20, 17, 110, 0.75);
-	color: white;	
+	background-color: rgba(20, 17, 110, 0.5);
+	color: black;	
 }
 
 .flex_blog_card.bg3 {
-	background-color: rgba(218, 223, 0, 0.75);
-	color: white;	
+	background-color: rgba(218, 223, 0, 0.5);
+	color: black;	
 }
 
 .flex_blog_card.bg4 {
-	background-color: rgba(20, 17, 110, 0.75);
+	background-color: rgba(20, 17, 110, 0.5);
 	color: white;	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
