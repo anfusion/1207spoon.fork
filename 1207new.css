@@ -111,7 +111,12 @@ div a {
     background-image: url(images/light.png);	
 	flex: 0 1 40%;
 	position: relative;
-	left: ;
+	z-index: 2;
+}
+
+.light:hover {
+	filter: drop-shadow(5px 5px 10px rgba(255,255,0,.7)) 
+	        drop-shadow(-5px -5px 10px rgba(255,255,0,.7));
 }
 
 .tile {
@@ -166,7 +171,7 @@ div a {
     background-image: url(images/isu.png);	
 	flex: 0 1 35%;
 	position: relative;
-	bottom: 2vh
+	bottom: 2vh;
 }
 
 
@@ -195,20 +200,29 @@ div a {
 	flex: 0 1 24%;
 }
 
+.fadein {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 1;
+    filter: alpha(opacity=60);
+	animation: lightsOn .15s ease-out 3s;
+	animation-fill-mode:forwards; /*when the spec is finished*/
 
+}
 
+@keyframes lightsOn {
+	0% {
+		opacity: 1;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
+	100% {
+		opacity: 0;
+	}
+}
 
 
 
