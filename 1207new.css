@@ -23,6 +23,8 @@ nav {
 	background-color: whitesmoke;
 	border-bottom: 1px solid gray;
 	max-height: 45px;
+	position: relative;
+	z-index: 3;
 }
 
 .nav_items {
@@ -202,7 +204,7 @@ div a {
 
 .fadein {
     position: absolute;
-    top: 7vh;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
