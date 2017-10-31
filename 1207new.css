@@ -202,7 +202,7 @@ div a {
 	flex: 0 1 24%;
 }
 
-.fadein {
+.dark {
     position: absolute;
     top: 0;
     right: 0;
@@ -211,16 +211,42 @@ div a {
     background: #000;
     opacity: 1;
     filter: alpha(opacity=60);
-	animation: lightsOn .15s ease-out 3s;
-	animation-fill-mode:forwards; /*when the spec is finished*/
-
 }
+
+.fadein {
+	animation: lightsOn 3s ease-out 3s;
+	animation-fill-mode:forwards; /*when the spec is finished*/
+}
+
 
 @keyframes lightsOn {
 	0% {
 		opacity: 1;
 	}
 
+	50% {
+		opacity: 0;
+	}
+
+	55% {
+		opacity: 1;
+	}
+
+	60% {
+		opacity: 0;
+	}
+
+	80% {
+		opacity: 0.7;
+	}	
+
+	85% {
+		opacity: 0.5;
+	}
+
+	90% {
+		opacity: 0.8;
+	}
 	100% {
 		opacity: 0;
 	}
