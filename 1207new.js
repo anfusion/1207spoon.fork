@@ -1,13 +1,20 @@
-function init(){
-	turnOnLights();
+var lightSwitch = document.getElementById("light-switch");
+var curtain = document.getElementById("curtain");
+
+lightSwitch.onclick = function () {
+	curtain.classList.toggle('fadein');
+	return false;
 }
 
-var lightSwitch = document.querySelector("#light-switch")
-var curtain = document.querySelector("#curtain")
 
-lightSwitch.addEventListener("click", turnOnLights)
 
-function turnOnLights () {
-	curtain.className += "fadein";
-    event.preventDefault();
-}
+
+// lightSwitch.addEventListener("click", function(){
+//     lightSwitch.preventDefault();
+// 	lightSwitch.classList.toggle("fadein");	
+// })
+
+// function turnOnLights (el) {
+//     el.preventDefault();
+// 	el.classList.toggle("fadein");
+// }
