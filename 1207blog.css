@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "San Fransisco";
+  font-family: "San Fransisco", Arial, sans-serif;
 }
 
 *, *:before, *:after {
