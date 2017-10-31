@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "San Fransisco", Arial, sans-serif;
 }
 
 *, *:before, *:after {
@@ -215,7 +214,7 @@ div a {
 }
 
 .fadein {
-	animation: lightsOn 3s ease-out 3s;
+	animation: lightsOn 2.5s linear 1s;
 	animation-fill-mode:forwards; /*when the spec is finished*/
 }
 
@@ -225,33 +224,58 @@ div a {
 		opacity: 1;
 	}
 
+	42% {
+		opacity: 1;
+	}
+
+	45% {
+		opacity: 0.3;
+	}
+
 	50% {
-		opacity: 0;
+		opacity: 0.7;
 	}
 
 	55% {
-		opacity: 1;
+		opacity: 0.8;
 	}
 
 	60% {
 		opacity: 0;
 	}
 
-	80% {
+	70% {
 		opacity: 0.7;
 	}	
 
-	85% {
+	72% {
 		opacity: 0.5;
 	}
 
-	90% {
+	75% {
+		opacity: 0.8;
+	}
+	80% {
+		opacity: 0.75;
+	}
+	85% {
+		opacity: 0.8;
+	}
+
+	87% {
+		opacity: 0.7;
+	}	
+
+	92% {
+		opacity: 0.5;
+	}
+
+	95% {
 		opacity: 0.8;
 	}
 	100% {
 		opacity: 0;
-	}
-}
+	}}
 
 
 
