@@ -32,7 +32,10 @@ body {
   font-size: 2rem; }
   @media screen and (max-width: 500px) {
     .ui {
-      margin: 6rem auto; } }
+      margin: 4rem auto; } }
+  @media screen and (max-width: 350px) {
+    .ui {
+      margin: 2rem auto; } }
   .ui-row div:first-child {
     border-left: 2px solid #efe9e9; }
   .ui-row div:last-child {
