@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  height: 100%; }
+
+body {
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(34, 84, 165, 0.8)), url(../images/cricketnz.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  line-height: 1.7em;
+  padding: 3rem;
+  font-family: 'Orbitron', sans-serif; }
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 2rem; } }
+
+.ui {
+  margin: 10rem auto;
+  width: 24rem;
+  height: 37.5rem;
+  background-color: #55c57a;
+  text-align: center;
+  font-size: 2rem; }
+  @media screen and (max-width: 500px) {
+    .ui {
+      margin: 6rem auto; } }
+  .ui-row div:first-child {
+    border-left: 2px solid #efe9e9; }
+  .ui-row div:last-child {
+    border-right: 2px solid #efe9e9; }
+  .ui-row-bottom div {
+    border-bottom: 2px solid #efe9e9; }
+  .ui-display {
+    width: 24rem;
+    height: 7.5rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    border: 2px solid #efe9e9;
+    border-bottom: 1px solid #efe9e9;
+    text-align: right;
+    background-color: gray; }
+  .ui-input-button {
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    border: 1px solid #efe9e9;
+    float: left;
+    padding-top: 2rem; }
+    .ui-input-button-top-left {
+      width: 18rem;
+      text-align: right;
+      padding-right: 2.3rem; }
+    .ui-input-button-top-right {
+      width: 6rem; }
+    .ui-input-button-bottom-mid {
+      width: 12rem;
+      text-align: right;
+      padding-right: 2.3rem; }
+
+.operator {
+  background-color: orange; }
+
+.selected {
+  background-color: white;
+  transition: all .2s ease; }
+  .selected-field {
+    background-color: darkgray;
+    transition: all .2s ease; }
