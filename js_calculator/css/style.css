@@ -105,7 +105,7 @@ body {
 .selected {
   transition: all .05s ease; }
   .selected-field {
-    background: #639ea4;
+    filter: hue-rotate(90deg);
     transition: all .1s ease; }
 
 .signoff {
