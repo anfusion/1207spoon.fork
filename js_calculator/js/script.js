@@ -1,4 +1,3 @@
-
 const n1 = document.querySelector('#n1');
 const n2 = document.querySelector('#n2');
 const n3 = document.querySelector('#n3');
@@ -64,19 +63,11 @@ for (let i = 0; i < numBtnArr.length; i++) {
 				curInput += curPushed;
 				}
 			}
-		displayed.innerHTML = curInput;
+		isItTooBig(curInput);
 	});
 }
 
-for (let i = 0; i < btnArr.length; i++) {
-	btnArr[i].addEventListener('click', function(){
-		let that = this;
-		that.classList.add("selected");
-		setTimeout(function(){
-			that.classList.remove("selected");
-		}, 100)
-	});
-}
+
 
 
 //OPERATOR BUTTONS
@@ -96,8 +87,10 @@ plus.addEventListener('click', function(){
 	doTheMath(prePlus);
 });
 
-ac.addEventListener('click', function(){
+
+ac.addEventListener('mousedown', function(){
 	clear();
+	fieldFeedback();
 });
 
 equals.addEventListener('click', function(){
@@ -116,7 +109,11 @@ equals.addEventListener('click', function(){
 		//reset
 		opFunc = "empty"
 	}
-	displayed.innerHTML = curTotal;
+	if (displayed.innerHTML === "."){
+		clear();
+	}
+	isItTooBig(curTotal);
+	// displayed.innerHTML = curTotal;
 	lastClicked = "equalsBtn";
 });
 
@@ -148,7 +145,8 @@ function doTheMath(mathOperator){
 	} else {
 	//if a num was not clicked last, the operator func is cleared, and the current total is shown
 		clear();
-		displayed.innerHTML = curTotal;
+		isItTooBig(curTotal);
+		// displayed.innerHTML = curTotal;
 	}
 }
 
@@ -158,20 +156,22 @@ function clear(){
 	opFunc = "empty";
 	curPushed = 0;
 	lastClicked = false;
-	fieldFeedback();
 }
 
 function fieldFeedback(){
 	displayed.classList.add("selected-field");
-	ac.classList.add("selected");
 	displayed.innerHTML = curTotal;
 	setTimeout(function(){
 		displayed.classList.remove("selected-field");
-		ac.classList.remove("selected");
 	}, 100)
 }
 
-
-
-
-
+function isItTooBig(n) {
+	//find length of number
+	if (n.toString().length > 12) {
+		clear();
+		displayed.innerHTML = "Exceeds Limit";
+	} else {
+	displayed.innerHTML = n;			
+	}
+}
