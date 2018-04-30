@@ -55,6 +55,8 @@ for (let i = 0; i < numBtnArr.length; i++) {
 					curInput = curPushed;
 				} else if (curPushed === ".") {
 					if (curInput.slice(-1) === ".") {
+					} else if (curInput.includes(".")){
+						//make sure it is the only dec point
 					} else {
 						curInput += curPushed;
 					}
@@ -87,13 +89,13 @@ plus.addEventListener('click', function(){
 	doTheMath(prePlus);
 });
 
-
 ac.addEventListener('mousedown', function(){
 	clear();
 	fieldFeedback();
 });
 
 equals.addEventListener('click', function(){
+	fieldFeedback();
 	if (lastClicked && lastClicked !== "operator") {
 		//evaluate current
 		//is there any number to work with?
@@ -123,6 +125,7 @@ equals.addEventListener('click', function(){
 function doTheMath(mathOperator){
 	//checks to see if the button clicked last was a number
 	//if a num was clicked last, the current input and the subtotal are evaluated
+	fieldFeedback();
 	if (lastClicked !== "operator") {
 		lastClicked = "operator";
 		//checks to see if there are numbers to work with
@@ -175,3 +178,7 @@ function isItTooBig(n) {
 	displayed.innerHTML = n;			
 	}
 }
+
+
+
+
