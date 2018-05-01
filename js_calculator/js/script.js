@@ -1,24 +1,24 @@
-const n1 = document.querySelector('#n1');
-const n2 = document.querySelector('#n2');
-const n3 = document.querySelector('#n3');
-const n4 = document.querySelector('#n4');
-const n5 = document.querySelector('#n5');
-const n6 = document.querySelector('#n6');
-const n7 = document.querySelector('#n7');
-const n8 = document.querySelector('#n8');
-const n9 = document.querySelector('#n9');
-const n0 = document.querySelector('#n0');
-const nDec = document.querySelector('#nDec');
-const ac = document.querySelector('#ac');
-const divide = document.querySelector('#divide');
-const times = document.querySelector('#times');
-const minus = document.querySelector('#minus');
-const plus = document.querySelector('#plus');
-const equals = document.querySelector('#equals');
-const displayed = document.querySelector('#displayed');
+const no1 = document.getElementById('n1');
+const no2 = document.getElementById('n2');
+const no3 = document.getElementById('n3');
+const no4 = document.getElementById('n4');
+const no5 = document.getElementById('n5');
+const no6 = document.getElementById('n6');
+const no7 = document.getElementById('n7');
+const no8 = document.getElementById('n8');
+const no9 = document.getElementById('n9');
+const no0 = document.getElementById('n0');
+const noDec = document.getElementById('nDec');
+const ac = document.getElementById('acbtn');
+const divide = document.getElementById('dividebtn');
+const times = document.getElementById('timesbtn');
+const plus = document.getElementById('plusbtn');
+const minus = document.getElementById('minusbtn');
+const equals = document.getElementById('equalsbtn');
+const displayed = document.getElementById('displayField');
 
-const numBtnArr = [n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, nDec];
-const btnArr = [n0, n1, n2, n3, n4, n5, n6, n7, n8, n9, nDec, divide, times, minus, plus, equals];
+const numBtnArr = [no0, no1, no2, no3, no4, no5, no6, no7, no8, no9, noDec];
+const btnArr = [no0, no1, no2, no3, no4, no5, no6, no7, no8, no9, noDec, divide, times, plus, minus, equals];
 
 
 let curTotal = 0;
@@ -41,7 +41,7 @@ for (let i = 0; i < numBtnArr.length; i++) {
 	numBtnArr[i].addEventListener('click', function(){
 		if (lastClicked === "equalsBtn") {
 			curTotal = 0;
-		};
+		}
 		curPushed = this.innerHTML;
 		//if a new calculation is started
 			//if it is the first number input by user eg. "1"
@@ -102,14 +102,14 @@ equals.addEventListener('click', function(){
 		if (curTotal || curTotal === 0 && opFunc !== "empty") {
 			curTotal = opFunc(Number(curInput));
 			curInput = curTotal;
-			opFunc = "empty"
+			opFunc = "empty";
 		} else {
 			curTotal = Number(curInput);
-			opFunc = "empty"
+			opFunc = "empty";
 		}
 	} else {
 		//reset
-		opFunc = "empty"
+		opFunc = "empty";
 	}
 	if (displayed.innerHTML === "."){
 		clear();
@@ -136,7 +136,7 @@ function doTheMath(mathOperator){
 			//opFunc preloaded with previous total is evaluated against current input and stored as current total
 			curTotal = opFunc(Number(curInput));
 			//new current total is stored in the operator closure
-			opFunc = mathOperator(Number(curTotal))
+			opFunc = mathOperator(Number(curTotal));
 			}
 		} else {
 			//if first operation, current total receives value of current input
@@ -166,7 +166,7 @@ function fieldFeedback(){
 	displayed.innerHTML = curTotal;
 	setTimeout(function(){
 		displayed.classList.remove("selected-field");
-	}, 100)
+	}, 100);
 }
 
 function isItTooBig(n) {
@@ -178,7 +178,3 @@ function isItTooBig(n) {
 	displayed.innerHTML = n;			
 	}
 }
-
-
-
-
