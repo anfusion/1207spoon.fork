@@ -10,7 +10,7 @@ html {
   height: 100%; }
 
 body {
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(34, 84, 165, 0.8)), url(../images/cricketnz.jpg);
+  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(34, 84, 165, 0.8)), url(../images/cricketsmall.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -50,7 +50,6 @@ body {
     height: 7.2rem;
     padding-top: 3rem;
     padding-right: 2rem;
-    border-bottom: 0.1rem solid #efe9e9;
     text-align: right;
     background-color: #868484;
     margin: .3rem 0 .3rem .2rem;
@@ -92,15 +91,18 @@ body {
       border-left: 0.2rem solid #efe9e9 !important;
       border-bottom: 0.1rem solid #efe9e9;
       transform: translateY(0.1rem) translateX(-0.1rem);
-      /*Move down*/ }
+      /*Move down*/
+      color: #c2ffd6; }
     .ui-input-button:last-child:active {
       border-top: .2rem solid #bb8626;
       border-right: .1rem solid #c3881c !important; }
     .ui-input-button:hover {
-      pointer: cursor; }
+      cursor: pointer; }
 
 .operator {
   background-color: orange; }
+  .operator:active {
+    color: #ffedcb; }
 
 .selected {
   transition: all .05s ease; }
