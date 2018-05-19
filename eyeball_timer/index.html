@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<title>Countdown</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</html>
+
+<body>
+	<header>POMODORO CLOCK</header>
+
+	<div class="main-left-side">
+		<div class="control">
+			<p>Work time</p>
+			<span class="adjust" id="session-reduce">-</span>
+			<span class="adjust" id="session-length"></span>
+			<span class="adjust" id="session-extend">+</span>
+		</div>
+
+		<div class="control">
+			<p>Break time:</p>
+			<span class="adjust" id="break-reduce">-</span>
+			<span class="adjust" id="break-length"></span>
+			<span class="adjust" id="break-extend">+</span>
+		</div><br>
+
+		<button id="seshStart">start sesh</button><br>
+		<button id="stopSesh" class="disappear">stop and reset sesh</button><br>
+
+		<div class="control">
+			<p>Now: <span id="session"></span></p>
+			<div class="timer" id="clockdiv">
+				<span class="minutes"></span>
+				<span class="seconds"></span>
+			</div>				
+		</div>
+
+
+
+		<section class="stage">
+			<figure class="ball">
+				<span class="shadow"></span>
+				<span id="irisAnim" class="iris"></span>
+			</figure>
+		</section>
+
+	</div>
+
+	<div class="main-right-side">
+		<div class="meter progress"></div>
+	</div>
+
+	<p id="relax" class="disappear">Break time! Relax your eyes!</p>
+
+    <script src="js/script.js"></script>
+</body>
